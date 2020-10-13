@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -15,7 +15,7 @@ sidebar:
     email: kim.benjamin.tang@gmail.com
     phone: +49 157 80839166
     website: kimbold.github.io #do not add http://
-    linkedin: https://www.linkedin.com/in/fu-sung-kim-benjamin-tang-7862331b3/
+    linkedin: www.linkedin.com/in/kim-benjamin-tang
     github: kimbold
     telegram: # add your nickname without '@' sign
     gitlab: kimbold
@@ -42,12 +42,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Summary of my profile.
 education:
     - degree: MSc in Computer Science
       university: RWTH Aachen
@@ -74,25 +69,9 @@ projects:
     intro: >
       Some projects.
     assignments:
-      - title: Velocity
+      - title: Example project
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Example project description"
 
 publications:
     title: Scientific work
@@ -116,6 +95,3 @@ skills:
 
       - name: SQL
         level: 24%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
