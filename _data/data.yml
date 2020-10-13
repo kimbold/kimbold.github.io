@@ -1,0 +1,122 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Fu-Sung Kim-Benjamin Tang
+    tagline: Student Worker in Software Development
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: kim.benjamin.tang@gmail.com
+    phone: +49 157 80839166
+    website: kimbold.github.io #do not add http://
+    linkedin: https://www.linkedin.com/in/fu-sung-kim-benjamin-tang-7862331b3/
+    github: kimbold
+    telegram: # add your nickname without '@' sign
+    gitlab: kimbold
+    bitbucket:
+    twitter:
+    stack-overflow: 12078469/kim-tang # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: German
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Traveling
+        link:
+
+      - item: Cooking
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+education:
+    - degree: MSc in Computer Science
+      university: RWTH Aachen
+      time: April 2020 - Present
+      
+    - degree: BSc in Computer Science
+      university: RWTH Aachen
+      time: October 2015 - March 2020
+      
+experiences:
+    - role: Student Worker in Software Development and Testing
+      time: April 2018 - Present
+      company: Osthus GmbH, Aachen
+      details: |
+        Some description.
+
+          - Programmieren von Java Unit Tests (JUnit)
+          - Automatisieren von Builds & Tests mit Gitlab CI/CD 
+          - Automatisieren von Deployments mit Ansible 
+          - Virtualisieren von Anwendungen mit Docker
+          - Kofigurieren von Kubernetes Deployments
+          
+projects:
+    title: Projects
+    intro: >
+      Some projects.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Scientific work
+    intro: |
+      Here is a list of my scientific work.
+    papers:
+      - title: Revealing the black-box of biomedical patent classification with explanation methods as a basis for systematic improvement of SVM-based classifiers
+        link: "#"
+        authors: Fu-Sung Kim-Benjamin Tang
+        conference: Bachelor Thesis
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python 
+        level: 55%
+
+      - name: Java
+        level: 21%
+
+      - name: SQL
+        level: 24%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
